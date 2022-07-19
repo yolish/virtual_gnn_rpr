@@ -11,7 +11,7 @@ In order to run this repository you will need:
 1. Python3 (tested with Python 3.7.7)
 1. PyTorch deep learning framework (tested with version 1.0.0)
 1. Use torch==1.4.0, torchvision==0.5.0
-1. Pytorch geometric - see its [installation guide]()  
+1. Pytorch geometric - see its [installation guide](https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html)  
 1. Download the [Cambridge Landmarks](http://mi.eng.cam.ac.uk/projects/relocalisation/#dataset) dataset and the [7Scenes](https://www.microsoft.com/en-us/research/project/rgb-d-dataset-7-scenes/) dataset
 1. You can also download pre-trained models to reproduce reported results (see below)
 1. For a quick set up you can run: pip install -r requirments.txt and then install pytorch geometric 

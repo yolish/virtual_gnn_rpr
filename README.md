@@ -1,14 +1,13 @@
-## Virtual Reglative Pose Regression with Camera Pose Auto-Encoders (PAEs) and Graph Neural Networks (GNNs)
+## Virtual Relative Pose Regression with Camera Pose Auto-Encoders (PAEs) and Graph Neural Networks (GNNs)
 
 ### Repository Overview 
 
-This code implements:
+This code implements training and testing of multi-scene *virtual* pose regresors (RPRs) with a GNN architecture and [PAE encodings](https://github.com/yolish/camera-pose-auto-encoders).
+To learn more about PAEs, please refer to our ECCV22 paper and repository about [camera pose auto-encoders](https://github.com/yolish/camera-pose-auto-encoders) 
 
-1. Training and testing of multi-scene virtual pose regresors (RPRs) with a GNN architecture and PAE encodings
 ### Prerequisites
 
 In order to run this repository you will need:
-
 1. Python3 (tested with Python 3.7.7)
 1. PyTorch deep learning framework (tested with version 1.0.0)
 1. Use torch==1.4.0, torchvision==0.5.0
